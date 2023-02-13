@@ -102,7 +102,7 @@ export default () => {
 		$('#hour-17').text(localStorage.getItem('hour-17'))
 
 		// display current day on page
-		$('#currentDay').text(moment('7/1/22').format('dddd, MMMM Do'))
+		$('#currentDay').text(moment().format('dddd, MMMM Do'))
 	})
 
 	return (
